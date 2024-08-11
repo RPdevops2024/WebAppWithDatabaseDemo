@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: redhat-ansible
 
 variables:
   buildConfiguration: 'Release'
