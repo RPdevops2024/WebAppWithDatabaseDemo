@@ -1,4 +1,5 @@
-trigger: 'master' # will disable CI builds entirely
+trigger:
+- master
 
 pool:
   name: Default
